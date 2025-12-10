@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Reconnaissance de chiffres</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- ONNX Runtime Web -->
+    <script src="https://cdn.jsdelivr.net/npm/onnxruntime-web/dist/ort.min.js"></script>
+</head>
+<body>
+    <h1>Reconnaissance de chiffres</h1>
+
+    <canvas id="canvas" width="280" height="280"></canvas>
+    <br>
+    <button id="clear">Effacer</button>
+    <button id="predict">Prédire</button>
+
+    <h2>Prédiction : <span id="result">?</span></h2>
+
+    <script src="app.js"></script>
+</body>
+</html>
